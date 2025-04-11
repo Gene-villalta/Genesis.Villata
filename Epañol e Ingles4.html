@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Worship Music Bilingüe</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #3f51b5;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .lists {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+      justify-content: center;
+    }
+
+    .box {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      flex: 1 1 400px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .animated-img {
+      display: block;
+      margin: 30px auto;
+      width: 200px;
+      animation: bounce 3s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      color: #333;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .play-button {
+      background-color: #3f51b5;
+      color: white;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      margin-left: 10px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .play-button:hover {
+      background-color: #303f9f;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #d3c25f;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Worship Music / Música de Alabanza</h1>
+
+    <img class="animated-img" src="img/imagen en movimiento.gif" alt="Worship Icon">
+
+
+    <div class="lists">
+
+      <!-- Lista ordenada español -->
+      <div class="box">
+        <h2>Top 5 Grupos Worship (Español)</h2>
+        <ol>
+          <li>Miel San Marcos
+            <a href="#" class="play-button">Reproducir</a>
+          </li>
+          <li>Un Corazón
+            <a href="#" class="play-button">Reproducir</a>
+          </li>
+          <li>En Espíritu y en Verdad
+            <a href="#" class="play-button">Reproducir</a>
+          </li>
+          <li>Generación 12
+            <a href="#" class="play-button">Reproducir</a>
+          </li>
+          <li>Marcos Brunet
+            <a href="#" class="play-button">Reproducir</a>
+          </li>
+        </ol>
+      </div>
+
+      <!-- Lista no ordenada inglés -->
+      <div class="box">
+        <h2>Popular Worship Bands (English)</h2>
+        <ul>
+            <li>Elevation Worship
+                <a href="#" class="play-button">Play</a>
+              </li>
+              <li>Bethel Music
+                <a href="#" class="play-button">Play</a>
+              </li>
+              <li>Hillsong UNITED
+                <a href="#" class="play-button">Play</a>
+              </li>
+              <li>Maverick City Music
+                <a href="#" class="play-button">Play</a>
+              </li>
+              <li>Jesus Culture
+                <a href="#" class="play-button">Play</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <footer>
+    © 2025 Historia Worship. Todos los derechos reservados.
+  </footer>
+</body>
+</html>

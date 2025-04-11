@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Worship</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2adf5;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .country-card {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .country-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .flag {
+      width: 40px;
+      height: auto;
+      border-radius: 4px;
+      margin-right: 15px;
+      box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    }
+
+    .country-name {
+      font-size: 1.3em;
+      color: #3f51b5;
+    }
+
+    .artists {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .artists a {
+      color: #3f51b5;
+      text-decoration: none;
+    }
+
+    .artists a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ce81d8;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Country Worship</h1>
+  <div class="grid">
+    <div class="country-card">
+      <div class="header">
+        <img class="flag" src="img/usa.png" alt="USA">
+        <div class="country-name">Estados Unidos</div>
+      </div>
+      <div class="artists">
+        <a href="#">Elevation Worship</a><br>
+        <a href="#">Bethel Music</a><br>
+        <a href="#">Maverick City Music</a><br>
+        <a href="#">Jesus Culture</a>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="header">
+        <img class="flag" src="img/australia.png" alt="Australia">
+        <div class="country-name">Australia</div>
+      </div>
+      <div class="artists">
+        <a href="#">Hillsong Worship</a><br>
+        <a href="#">Planetshakers</a><br>
+        <a href="#">UNITED</a>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="header">
+        <img class="flag" src="img/mexico.png" alt="México">
+        <div class="country-name">México</div>
+      </div>
+      <div class="artists">
+        <a href="#">Un Corazón</a><br>
+        <a href="#">En Espíritu y en Verdad</a><br>
+        <a href="#">Lead</a>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="header">
+        <img class="flag" src="img/colombia.png" alt="Colombia">
+        <div class="country-name">Colombia</div>
+      </div>
+      <div class="artists">
+        <a href="#">Generación 12</a><br>
+        <a href="#">Su Presencia</a><br>
+        <a href="#">Living</a>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="header">
+        <img class="flag" src="img/Argentina.jpg" alt="Argentina">
+        <div class="country-name">Argentina</div>
+      </div>
+      <div class="artists">
+        <a href="#">Marcos Brunet</a><br>
+        <a href="#">Misión Vida</a><br>
+        <a href="#">La Feria</a>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="header">
+        <img class="flag" src="img/guatemala.png" alt="Guatemala">
+        <div class="country-name">Guatemala</div>
+      </div>
+      <div class="artists">
+        <a href="#">Miel San Marcos</a><br>
+        <a href="#">Vástago Epicentro</a>
+      </div>
+      <footer>
+    </div>
+  </div>
+  <footer>
+    © 2025 Historia Worship. Todos los derechos reservados.
+  </footer>
+</body>
+</html>

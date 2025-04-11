@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contáctenos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1968df;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    table {
+      width: 80%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      background-color: rgb(237, 206, 206);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 3px solid rgb(231, 194, 194);
+    }
+
+    th {
+      background-color: #3f51b5;
+      color: rgb(173, 222, 250);
+    }
+
+    tr:hover {
+      background-color: #c31010;
+    }
+
+    .form-container {
+      width: 80%;
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: rgb(161, 199, 240);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .form-container h2 {
+      text-align: center;
+      color: #3f51b5;
+      margin-bottom: 25px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 3px solid rgb(21, 13, 13);
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #3f51b5;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #303f9f;
+    }
+
+    @media (max-width: 600px) {
+      table, .form-container {
+        width: 100%;
+      }
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #7bd897;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Contáctenos</h1>
+
+  <!-- Tabla de información -->
+  <table>
+    <tr>
+      <th>Departamento</th>
+      <th>Correo Electrónico</th>
+      <th>Teléfono</th>
+    </tr>
+    <tr>
+      <td>Atención al Público</td>
+      <td>contacto@ministerio.com</td>
+      <td>+1 (800) 123-4567</td>
+    </tr>
+    <tr>
+      <td>Soporte Técnico</td>
+      <td>soporte@ministerio.com</td>
+      <td>+1 (800) 987-6543</td>
+    </tr>
+    <tr>
+      <td>Invitaciones</td>
+      <td>eventos@ministerio.com</td>
+      <td>+1 (800) 555-2020</td>
+    </tr>
+  </table>
+
+  <!-- Formulario de contacto -->
+  <div class="form-container">
+    <h2>Envíanos un Mensaje</h2>
+    <form>
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo electrónico" required>
+      <input type="text" name="asunto" placeholder="Asunto">
+      <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+  <footer>
+    © 2025 Historia Worship. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
